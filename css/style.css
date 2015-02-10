@@ -1,0 +1,129 @@
+	
+	body {
+		text-align: center;
+		font-family: 'Titillium Web', sans-serif;
+	}
+	
+	table {
+				
+	}
+	
+	textarea {
+		width: 100%;
+	}
+	
+	hr {
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+	
+	.logo {
+		font-size: 75px;
+		padding: 20px;
+		margin: 0px;
+		font-style: oblique;
+		color: #FF890A;
+		text-shadow: 2px 2px #5c5c5c;
+		font-family: 'Lobster', cursive;
+	}
+	
+	.center {
+		text-align: center;
+	}
+	
+	.no-padding {
+		padding: 0px !important;
+	}
+	
+	.right {
+		width: 100%;
+		text-align: right;
+	}
+	
+	.nav {
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0, #FF890A),
+			color-stop(1, #FFBB45)
+		);
+		background-image: -o-linear-gradient(bottom, #FF890A 0%, #FFBB45 100%);
+		background-image: -moz-linear-gradient(bottom, #FF890A 0%, #FFBB45 100%);
+		background-image: -webkit-linear-gradient(bottom, #FF890A 0%, #FFBB45 100%);
+		background-image: -ms-linear-gradient(bottom, #FF890A 0%, #FFBB45 100%);
+		background-image: linear-gradient(to bottom, #FF890A 0%, #FFBB45 100%);
+		padding: 15px 0px 15px 0px;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+	}
+	
+	.nav a {
+		text-decoration: none;
+		padding: 0px 15px 0px 15px;
+		color: #FFF;
+		font-size: 20px;
+		text-shadow: 1px 1px #5c5c5c;
+	}
+	
+	.nav a:hover {
+		text-decoration: none;
+		color: #FFF;
+		font-size: 20px;
+		text-shadow: 2px 2px #5c5c5c;
+	}
+	
+	
+	
+	.wrapper {
+		text-align: left;
+		width: 800px;
+		margin: 25px auto;
+	}
+	
+	
+	.statstext {
+		font-size: 100px;
+	}
+	
+	.TemplatePanel {
+		float: left;
+		width: 240px;
+		text-align: center;
+		border: 1px solid #5c5c5c;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		margin: 0px;
+		font-weight: bold;
+		padding: 5px;
+	}
+	
+	.SubscribedPanel {
+		float: right;
+		width: 240px;
+		text-align: center;
+		border: 1px solid #5c5c5c;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		margin: 0px;
+		font-weight: bold;
+		padding: 5px;
+	}
+	
+	.MessagesPanel {
+		width: 240px;
+		text-align: center;
+		border: 1px solid #5c5c5c;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		margin: 20px auto;
+		font-weight: bold;
+		padding: 5px;
+	}
+	
+	.subscribers {
+		text-align: center;
+	}
