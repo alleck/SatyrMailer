@@ -169,7 +169,7 @@ Creation Date: 11/15/2014
 		<!--- Single address add lisenter --->
 		<cfif #StructKeyExists(form, "EmailAddress")#>
 			<cfquery datasource="#Application.DSN#" name="MailerSubscribers" timeout="60000">
-				INSERT INTO `MailerSubscribers`(`Email`) VALUES ('#Form.EmailAddress#')
+				INSERT INTO `mailersubscribers`(`Email`) VALUES ('#Form.EmailAddress#')
 			</cfquery>
 		</cfif>
 		<cfif #StructKeyExists(url, "pg")#>
@@ -185,7 +185,7 @@ Creation Date: 11/15/2014
 					</cfquery>
 				<cfelse>
 					<cfquery datasource="#Application.DSN#" name="MailerSubscribers" timeout="60000">
-						SELECT * FROM sailersubscribers WHERE Email LIKE "#URL.pg#%" ORDER BY EMAIL
+						SELECT * FROM mailersubscribers WHERE Email LIKE "#URL.pg#%" ORDER BY EMAIL
 					</cfquery>
 				</cfif>
 			</cfoutput>
