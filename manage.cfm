@@ -19,13 +19,13 @@ Creation Date: 11/15/2014
 			<cfelseif #URL.action# eq "add">
 				<cfif #StructKeyExists(URL, "email")#>
 					<cfquery datasource="#Application.DSN#" name="MailerSubscribers" timeout="60000">
-						INSERT INTO `MailerSubscribers`(`Email`) VALUES ('#URL.email#')
+						INSERT INTO `mailersubscribers`(`Email`) VALUES ('#URL.email#')
 					</cfquery>
 				</cfif>
 			<!--- Purge the table --->
 			<cfelseif #URL.action# eq "purge">
 				<cfquery datasource="#Application.DSN#" name="MailerSubscribers" timeout="60000">
-					TRUNCATE `MailerSubscribers`
+					TRUNCATE `mailersubscribers`
 				</cfquery>
 			<cfelse>
 				Nope...
